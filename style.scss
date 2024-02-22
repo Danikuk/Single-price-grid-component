@@ -42,6 +42,7 @@
   // Styles for various headings
 
   h1 {
+    font-size: 1.75rem;
     padding-top: 16px;
     margin-bottom: 24px;
     color: #16736c;
@@ -57,7 +58,7 @@
     font-weight: 800;
 
     @media screen and (min-width: 768px) {
-      font-size: 34px;
+      font-size: 2rem;
     }
   }
 
@@ -65,9 +66,10 @@
     margin-bottom: 20px;
     color: #15372f;
     line-height: 30px;
+    font-size: 1.25rem;
 
     @media screen and (min-width: 768px) {
-      font-size: 26px;
+      font-size: 1.75rem;
     }
   }
 
@@ -84,6 +86,11 @@
   span {
     color: #173535;
     margin-left: 8px;
+    font-size: 1.15rem;
+
+    @media screen and (min-width: 768px) {
+      font-size: 1.35rem;
+    }
   }
 }
 
@@ -93,16 +100,23 @@
   background-color: #fefefe;
   margin-bottom: 20px;
 
-  h3 {
+  h2 {
+    margin-bottom: 16px;
+    font-size: 1.2rem;
     color: #6c7639;
     text-shadow: 0 0 2px #6c7639;
+
+    @media screen and (min-width: 768px) {
+      font-size: 1.75rem;
+    }
   }
 
   p {
-    color: #063839;
+    color: #251f1f;
+    font-size: 1.2rem;
 
     @media screen and (min-width: 768px) {
-      font-size: 28px;
+      font-size: 1.5rem;
     }
   }
 }

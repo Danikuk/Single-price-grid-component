@@ -38,6 +38,7 @@
   }
 }
 .card h1 {
+  font-size: 1.75rem;
   padding-top: 16px;
   margin-bottom: 24px;
   color: #16736c;
@@ -54,17 +55,18 @@
 }
 @media screen and (min-width: 768px) {
   .card h3 {
-    font-size: 34px;
+    font-size: 2rem;
   }
 }
 .card p {
   margin-bottom: 20px;
   color: #15372f;
   line-height: 30px;
+  font-size: 1.25rem;
 }
 @media screen and (min-width: 768px) {
   .card p {
-    font-size: 26px;
+    font-size: 1.75rem;
   }
 }
 .card strong {
@@ -80,22 +82,36 @@
 .card span {
   color: #173535;
   margin-left: 8px;
+  font-size: 1.15rem;
+}
+@media screen and (min-width: 768px) {
+  .card span {
+    font-size: 1.35rem;
+  }
 }
 
 .join-community-wrapp {
   background-color: #fefefe;
   margin-bottom: 20px;
 }
-.join-community-wrapp h3 {
+.join-community-wrapp h2 {
+  margin-bottom: 16px;
+  font-size: 1.2rem;
   color: #6c7639;
   text-shadow: 0 0 2px #6c7639;
 }
+@media screen and (min-width: 768px) {
+  .join-community-wrapp h2 {
+    font-size: 1.75rem;
+  }
+}
 .join-community-wrapp p {
-  color: #063839;
+  color: #251f1f;
+  font-size: 1.2rem;
 }
 @media screen and (min-width: 768px) {
   .join-community-wrapp p {
-    font-size: 28px;
+    font-size: 1.5rem;
   }
 }
 
