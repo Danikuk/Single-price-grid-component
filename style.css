@@ -2,13 +2,13 @@
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
+  font-family: "Karla", sans-serif;
 }
 
 .container {
   max-width: 800px;
   padding: 2rem;
   margin: 0 auto;
-  font-family: "Karla", sans-serif;
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -63,6 +63,7 @@
   color: #15372f;
   line-height: 30px;
   font-size: 1.25rem;
+  font-weight: 200;
 }
 @media screen and (min-width: 768px) {
   .card p {
@@ -83,6 +84,7 @@
   color: #173535;
   margin-left: 8px;
   font-size: 1.15rem;
+  font-weight: 400;
 }
 @media screen and (min-width: 768px) {
   .card span {
@@ -97,8 +99,8 @@
 .join-community-wrapp h2 {
   margin-bottom: 16px;
   font-size: 1.2rem;
-  color: #6c7639;
-  text-shadow: 0 0 2px #6c7639;
+  color: #3e00fe;
+  text-shadow: 0 0 2px #3e00fe;
 }
 @media screen and (min-width: 768px) {
   .join-community-wrapp h2 {
@@ -126,7 +128,7 @@
   }
 }
 .monthly-wrapp button {
-  background-color: #3e441e;
+  background-color: #3e00fe;
   max-width: 800px;
   width: 100%;
   padding: 12px;
